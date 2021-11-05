@@ -24,14 +24,17 @@ public class RockPaperSe {
             //here is the computer choice
               char computerChoice = computerPlays.charAt(rnd.nextInt(computerPlays.length()));
             //check & match who wins
-            if( abdullh == computerChoice ){
-                System.out.println("tie");
-                
-                }else if ((abdullh =='p' && computerChoice =='s')
+            
+            if((abdullh =='p' && computerChoice =='s')
                 ||(abdullh =='s'&& computerChoice=='r')
                 ||(abdullh =='r'&& computerChoice =='p')) {
                     
                         System.out.println("abdullh win");
+            
+                
+                }else if ( abdullh == computerChoice ){
+                System.out.println("tie");
+                
                 }else {
                     System.out.println("computerChoice");
                 }
