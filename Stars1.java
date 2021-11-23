@@ -1,4 +1,4 @@
-public class Main {  
+public class Stars1 {  
     public static void main(String[] args) {
     int counterX = 1;
     while(counterX <= 5){
