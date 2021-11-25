@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class degree_Plus1 {
+	public static void main(String[] args) {
+	  Scanner user = new Scanner(System.in);
+	  int degree = user.nextInt();
+	  if(degree >=0 && degree <60){
+	   System.out.println("Student fails");
+	 } else if(degree  >=60 &&  degree <= 100){
+	   System.out.println("Student Successful");
+	     
+	      }else {
+	      System.out.println("error");
+	      }
+	}
+}
