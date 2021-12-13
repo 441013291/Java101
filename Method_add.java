@@ -19,5 +19,5 @@ public class Method_add {
          System.out.println(multi(1,5));
       System.out.println(dif(1,5));
   }
-  
+}
   
