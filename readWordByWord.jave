@@ -1,0 +1,6 @@
+public class readWordByWord {
+	public static void main(String[] args) {
+     String a = " ever\nbanega";
+		System.out.println(a);
+	}
+}
